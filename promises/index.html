@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Promises</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="section">
+        <div style="width: 100%">
+          <h3>Digite um CEP:</h3>
+          <div class="input_container">
+            <input id="cep_input" type="text" />
+            <button onclick="getCep()">Pesquisar</button>
+          </div>
+        </div>
+
+        <div class="results_container">
+          <h4>Resultados da busca:</h4>
+
+          <div class="results">
+            <p id="cep">CEP:</p>
+            <p id="logradouro">Logradouro:</p>
+            <p id="estado">Estado:</p>
+            <p id="bairro">Bairro:</p>
+            <p id="localidade">Localidade:</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
